@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/VideoVerse/static/css/main.3e922bf3.css",
-    "main.js": "/VideoVerse/static/js/main.1d3c93ae.js",
+    "main.js": "/VideoVerse/static/js/main.7666a5b3.js",
     "static/js/787.df02e639.chunk.js": "/VideoVerse/static/js/787.df02e639.chunk.js",
     "index.html": "/VideoVerse/index.html",
     "main.3e922bf3.css.map": "/VideoVerse/static/css/main.3e922bf3.css.map",
-    "main.1d3c93ae.js.map": "/VideoVerse/static/js/main.1d3c93ae.js.map",
+    "main.7666a5b3.js.map": "/VideoVerse/static/js/main.7666a5b3.js.map",
     "787.df02e639.chunk.js.map": "/VideoVerse/static/js/787.df02e639.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e922bf3.css",
-    "static/js/main.1d3c93ae.js"
+    "static/js/main.7666a5b3.js"
   ]
 }
