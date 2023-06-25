@@ -9,31 +9,31 @@ import MainContainer from "./components/MainContainer";
 import WatchPage from "./components/WatchPage";
 import SearchResults from "./components/SearchResults";
 function App() {
-  const appRouter=createBrowserRouter([{
-    path:"/",
-    element:<Head/>,
-    children:[
-      {
-        path:"/",
-        element:<MainContainer/>
-       },
-       {
-        path:"watch",
-        element:<WatchPage/>
-      },
-      {
-      path:"search",
-      element:<SearchResults/>
-      },
-    ]
-  }]);
+  const appRouter = createBrowserRouter([
+    {
+      path: "/",
+      element: <Head />,
+      children: [
+        {
+          path: "/",
+          element: <MainContainer />,
+        },
+        {
+          path: "watch",
+          element: <WatchPage />,
+        },
+        {
+          path: "search",
+          element: <SearchResults />,
+        },
+      ],
+    },
+  ]);
 
   return (
     <Provider store={store}>
-    
-    <RouterProvider router={appRouter}/>
+      <RouterProvider router={appRouter} />
     </Provider>
-  
   );
 }
 
