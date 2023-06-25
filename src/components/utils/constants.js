@@ -15,7 +15,7 @@ export const Youtube_VideoById_Api =
   "https://www.googleapis.com/youtube/v3/videos?part=snippet&id=xE_rMj35BIM&key=YOUR_KEY";
 
 export const Youtube_search_Api =
-  "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
+  "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 
 export const OFFSET_LIVE_CHAT_COUNT = 20;
 
