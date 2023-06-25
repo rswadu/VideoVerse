@@ -15,7 +15,7 @@ function App() {
       element: <Head />,
       children: [
         {
-          path: "/",
+          path: "/VideoVerse",
           element: <MainContainer />,
         },
         {
